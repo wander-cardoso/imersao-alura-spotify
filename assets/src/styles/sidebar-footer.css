@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    font-family: var (--font-dm-sans);
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar{
@@ -42,10 +42,11 @@ body {
 }
 
 .sidebar nav ul li a{
+    font-family: var(--font-dm-sans);
+    font-size: 14px;
     color: #b3b3b3;
     text-decoration: none;
     font-weight: 600;
-    font-size: 14px;
 }
 
 .library{
@@ -75,6 +76,7 @@ body {
     border: 0px;
     font-size: 14px;
     font-weight: 700;
+    font-family: var(--font-dm-sans);
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -114,7 +116,7 @@ body {
 .section-playlist__content .text{
     padding-bottom: 14px;
     color: #fff;
-    
+    font-family: var(--font-dm-sans);
 }
 
 .section-playlist__content .title{
@@ -134,6 +136,7 @@ body {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
+    font-family: var(--font-dm-sans);
     text-decoration: none;
     text-transform: none;
     padding: 10px;
