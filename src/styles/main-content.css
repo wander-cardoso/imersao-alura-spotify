@@ -139,10 +139,10 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 16px;
     gap: 16px;
-    margin-bottom: 16px; */
+    margin-bottom: 16px; 
 
-    /* CODIGO COM JS CALCULANDO OS CARDS POR COLUNA */
-    display: grid;  /* define o modelo de layout do elemento como uma grade */
+    /* CODIGO COM JS CALCULANDO OS CARDS POR COLUNA 
+    display: grid;   define o modelo de layout do elemento como uma grade */
     gap: 16px;
     grid-gap: 32px;  /* não é usado mais */
     margin: 0 auto;
@@ -153,8 +153,8 @@
 
 .cards {
     position: relative; /* relative:
-                            Comportamento em relação a si mesmo: O elemento é posicionado em relação à sua posição original.
-                            Mantém espaço original: O espaço original que o elemento ocuparia não é alterado, mas você pode movê-lo com top, right, bottom ou left. */
+Comportamento em relação a si mesmo: O elemento é posicionado em relação à sua posição original.
+Mantém espaço original: O espaço original que o elemento ocuparia não é alterado, mas você pode movê-lo com top, right, bottom ou left. */
     width: 220px;
     height: 200px;
     overflow: hidden;
@@ -165,8 +165,8 @@
     padding: 16px;
     position: absolute;
     /* absolute:
-                            Comportamento em relação ao ancestral posicionado mais próximo ou ao elemento raiz (se nenhum ancestral estiver posicionado).
-                            Remove do fluxo normal: O elemento é removido do fluxo normal do documento, o que significa que outros elementos agem como se o elemento não estivesse presente. */
+Comportamento em relação ao ancestral posicionado mais próximo ou ao elemento raiz (se nenhum ancestral estiver posicionado).
+Remove do fluxo normal: O elemento é removido do fluxo normal do documento, o que significa que outros elementos agem como se o elemento não estivesse presente. */
     color: var(--text-base-light);
     font-size: 24px;
     font-weight: 700;
